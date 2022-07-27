@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Chan Lee</h1>
+            <h2>Software Engineer</h2>
+            <a href="resume/Resume Revised.pdf" class="btn-rounded-white">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <h2 class="heading">About Me</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="my_photo">
+                        <img src="images/my_photo.jpeg" />
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="about-me">
+                        <p>
+                            Computer science and math have always fascinated me. I am ready to learn more; apply new ideas, and technologies I have learned. 
+                            I am interested in bringing positive influence to the world through the skills and knowledge I learned. 
+                            I enjoy writing programs and improving them. 
+                            I value perseverance and hard work. 
+                            I like listening to music and playing the piano in my free time.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+                <div data-date="April 2021 – June 2022">
+                    <div class = "row">
+                        <div class = "col-md-1">
+                            <div class = "LG">
+                                <img src="images/LG.jpeg"/>
+                            </div>
+                        </div>
+                        <div class = "col-md-11">
+                            <h3>LG Electronics</h3>
+                            <h4>Software Engineer</h4>
+                            <h4> Project: <a href = "#CalibrationSoftware">Medical Calibration Software</a></h4>
+                            <ul>
+                                <li>
+                                    Designed and implemented a medical calibration software that calibrates medical monitors based on custom user input 
+                                    utilizing c#, .Net, Entity Framework, MariaDB, C++.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-date="November 2020 – March 2021">
+                    <div class = "row">
+                        <div class = "col-md-1">
+                            <div class = "Linewalks">
+                                <img src="images/linewalks.jpeg" />
+                            </div>
+                        </div>
+                        <div class="col-md-11">
+                            <h3>Linewalks</h3>
+                            <h4>Software Engineer</h4>
+                            <h4> Project: <a href = "#EXI-Server">EXI-Server</a></h4>
+                            <ul>
+                                <li>
+                                Designed and implemented a machine learning serving server for ‘mdwalks-EXI project’, 
+                                a web application developed to track and notify prediction of heart risk disease per patient based on their medical data, 
+                                allowing users to upload and update newly built ML models; acquire prediction data in batch size for newly pre-processed data utilizing strategy pattern, Celery, Redis, and Python.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+
+           
+                <div data-date="June 2020 – August 2020">
+                    <div class="row">
+                        <div class="col-md-1">
+                            <div class = "Benedly">
+                                <img src="images/benedly.jpeg" />
+                            </div> 
+                        </div> 
+                        <div class="col-md-11">
+                            <h3>Benedly</h3>
+                            <h4>Software Engineer Intern</h4>
+                            <h4> Project: <a href = "#Lundi">Lundi</a></h4>
+                            <ul>
+                                <li> 
+                                Researched and Implemented optimization of the Haversine algorithm, an algorithm used to find distance using latitude and longitude, which reduced the time to 50% from that of the original search. 
+                                </li>
+                                <li>
+                                Developed back-end for the subscription module for the ‘Lundi', an app developed for a take-out platform service, allowing subscribed users to purchase and order subscribed menus from the restaurants in a specific time frame utilizing Java spring-framework, MySQL.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div data-date="June 2020 – August 2020">
+                <div class="row">
+                    <div class="col-md-1">
+                        <div class = "Olulo">
+                            <img src="images/Olulo.jpeg" />
+                        </div> 
+                    </div> 
+                    <div class="col-md-11">
+                        <h3>Olulo</h3>
+                        <h4>Software Engineer Intern</h4>
+                        <h4> Project: <a href = "#ScooterModeling"> Modeling For Best Arrangement of Electric Scooters </a></h4>
+                        <ul>
+                            <li> 
+                                Leading company in the electric scooter sharing service known as ‘Kickgoing’ in South Korea. Korean version of ‘Lime’, ‘Bird’. 
+                            </li>
+                            <li>
+                                Developed key pattern identification to improved electric scooter arrangement efficiency using python, pandas, numpy and gave presentation about the findings to the entire teams.
+                            </li>
+                            <li>
+                                Designed and implemented a mapping tool to analyze large data sets, identifying patterns of user behaviors utilizing html, CSS and libraries such as leaflet JS, Marker Cluster, pandas.
+                            </li>
+                            <li>
+                                Studied ELK stack, gave a presentation on ELK stack which led the company’s decision to implement it for its system.
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div data-date="June 2020 – August 2020">
+                <div class="row">
+                    <div class="col-md-1">
+                        <div class = "Olulo">
+                            <img src="images/Olulo.jpeg" />
+                        </div> 
+                    </div> 
+                    <div class="col-md-11">
+                        <h3>Olulo</h3>
+                        <h4>Software Engineer Intern</h4>
+                        <h4> Project: </h4>
+                        <ul>
+                            <li> 
+                                Leading company in the electric scooter sharing service known as ‘Kickgoing’ in South Korea. Korean version of ‘Lime’, ‘Bird’. 
+                            </li>
+                            <li>
+                                Developed key pattern identification to improved electric scooter arrangement efficiency using python, pandas, numpy and gave presentation about the findings to the entire teams.
+                            </li>
+                            <li>
+                                Designed and implemented a mapping tool to analyze large data sets, identifying patterns of user behaviors utilizing html, CSS and libraries such as leaflet JS, Marker Cluster, pandas.
+                            </li>
+                            <li>
+                                Studied ELK stack, gave a presentation on ELK stack which led the company’s decision to implement it for its system.
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+           
+
+
+
+
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">    
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>University of California, Irvine</h3>
+            <span class="education-date">September 2022 - June 2024</span>
+            <h4>Master of Science in Computer Science</h4>
+            <p>
+                Incoming graduate student for class of 2024.
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>University of Colorado, Boulder</h3>
+            <span class="education-date">August 2018 - May 2020</span>
+            <h4>Bachelor of Science in Computer Science</h4>
+            <ul>
+                <li>
+                    Bachelor's Degree in Computer Science
+                </li>
+                <li>
+                    Computer Science GPA: 3.95/4.0
+                </li>
+                <li>
+                    Dean's List: FA 2018, SP 2019, FA 2019, SP 2020
+                </li>
+                <li>
+                    Graduated with Distinction (May 2020)
+                </li>
+            </ul>
+        </div>
+
+        <div class="education-block">
+            <h3>Reed College</h3>
+            <span class="education-date">August 2011 - May 2017</span>
+            <h4>Bachelor of Science in Computer Science</h4>
+            <ul>
+                <li>
+                    Major in Math
+                </li>
+                <li>
+                    Leave of Absence Due to Military Service: 2014 - 2016
+                </li>
+            </ul>
+        </div>
+
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+
+  
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Professional Projects</h2>
+        <div class="container">
+            <div class="project no-image">
+                <div class="project-info">
+                    <h3 id=CalibrationSoftware> Medical Calibration Software</h3>
+                    <h4>Description</h4>
+                    <p>
+                        The software is a newly developed desktop application that calibrates medical monitors.
+                    </p>
+        
+                    <h4>Contribution</h4>
+                    <ul>
+                        <li>
+                            Designed DB utilizing ORM Entity framework in .Net 6 Core.
+                        </li>
+                        <li>
+                            Created functionality that allows calibration based on previous data.
+                        </li>
+                        <li>
+                            Applied singleton patterns on the page development to avoid creating instances of unnecessary features.
+                        </li>
+
+                        <li>              
+                            Conducted major refactoring(30%) over the root of the project to cope with modern c# and .Net Framework.
+                        </li>
+                        <li>
+                            Contributed to developing UIs utilizing wpf.
+                        </li>
+                        <li>
+                            Frequently consulted with UI Designers, project managers, and developers to develop a better applicaiton.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project no-image">
+                <div class="project-info">
+                    <h3 id=EXI-Server> EXI-Server</h3>
+                    <h4>Description</h4>   
+                    <p>
+                        EXI ML server application manages entire server functionality related to ML models built in company. 
+                        It allows end-users and ML engineers to efficiently upload, train and deploy ML models accordingly.
+                    </p>
+                    
+            
+                    <h4>Contribution</h4>
+                    <ul>
+                        <li>              
+                            Designed and implemented a machine learning serving server for the 'mdwalks-EXI project'.
+                        </li>
+                        <li>
+                            Applied strategy pattern to ML models that have similar steps in feature selection and saving model.
+                        </li>
+                        <li>
+                            Implemented functionality that trains model in batch size for newly pre-processed data.
+                        </li>
+
+                        <li>
+                            Implemented Redis and Celery, distributed task queue library in python, to auto-update ML models at a given time interval from the company server.
+                        </li>
+                        <li>
+                            Applied test code using pytest covering 80% of the entire functionality using best practices.
+                        </li>
+                        <li>
+                            Peer reviewed code thoroughly on every code push.
+                        </li>
+
+                        <li>
+                            Maintained server side of 'mdwalks-EXI project', an application that tracks and displays prediction of disease such as heart disease per patient based on their medical data.
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+  
+                
+            <div class="project no-image">
+                <div class="project-info">
+                    <h3 id=Lundi> Lundi</h3>
+                    <h4>Description</h4>
+                    <p>
+                        Food Take Out Reservation Platform Service runs on iOS platform.
+                        The Service allows the user to select the menu that each restaurant provides.
+                        Selected menu is sent to the restaurant and the user picks up its order at a given time.
+                        The project was funded by the government in pre-enterprise category and recieved the grand prize.
+                    </p>
+        
+                    <h4>Tech. Stack</h4>
+                    <p>
+                        Java, Spring-framework, Swift, MySQL, JWT, AWS
+                    </p>
+            
+                    <h4>Contribution</h4>
+                    <ul>
+                        <li>              
+                        Reduced search query time by 50% optimizing Haversine algorithm, an algorithm that measures the distance using latitude and logitude.
+                    </li>
+                    <li>
+                        Developed subscription service module using Java, Spring-Framework
+                        <ul>  
+                            <li>
+                                Designed DB related to subscription service utilizing normalization.
+                            </li>
+                            <li>
+                                Developed CRUD for restaurant owners to manage menus and user to register as subscriber
+                            </li>
+                            <li>
+                                Developed functionality of which subscribers to order subscribed menu in certain time interval. 
+                            </li>
+                        </ul>
+                    </li>
+                    </ul>
+                </div>  
+            </div>
+
+
+
+            <div class="project no-image">
+                <div class="project-info">
+                    <h3 id=ScooterModeling> Modeling for Best Arrangement of Scooters</h3>
+                    <h4>Description</h4>
+                    <p>
+                        Data analysis and modeling was conducted to improve the frequent use of electric scooters with placing the scooters at certain location. 
+                        Presented the model and recieved good feedback from the entire team at the company.
+                    </p>
+        
+                    <h4>Tech. Stack</h4>
+                    <p>
+                        Python, Javascript, Leaflet JS, Html, CSS, Jupyter Notebook
+                    </p>
+            
+                    <h4>Contribution</h4>
+                    <ul>
+                    <li>              
+                        Devised optimized modeling for placing scooters.
+                    </li>
+                    
+                    <li>
+                        Applied Ray-Casting Algorithm to analyze and visualize data distributed at a certain location.
+                    </li>
+                    <li>
+                        Performed data analysis by connecting data gained from DB with weather forecasting public data released from the weather forecasting center.
+                    </li>
+                    <li>    
+                        Developed a self-analyzing tool utilizing Leaflet JS and Marker Cluster library.
+                    </li>
+                    
+                    <li>
+                        Displayed data related to user service pattern usage visually using the self-analyzing tool.
+                    </li>
+                    </ul>
+                </div>  
+            </div>
+
+
+
+
+
+
+
+
+                   
+            <!-- <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/project.jpg" />
+                </div> -->
+                <!-- End .project-image -->
+                <!-- <div class="project-info">
+                    <h3 id=ScooterModeling>Modeling For Best Arragement Of Scooters </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    </p>
+                    <a href="#">View Project</a>
+                </div> -->
+                <!-- End .project-info -->
+            <!-- </div>
+        </div>
+    </div> -->
+    <!-- End #projects -->
+
+
+
+    <!-- <div id="projects" class="background-alt">
+        <h2 class="heading">Personal Projects</h2>
+        <div class="container">
+        </div>
+    </div> -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>C#</li>
+            <li>Kotlin</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Git</li>
+            <li>PostgreSQL</li>
+            <li>MySQL</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/email@email.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="clee51@uci.edu" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2022</span> Chan Lee
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
